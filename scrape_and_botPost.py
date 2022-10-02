@@ -43,10 +43,13 @@ locations = []
 date_opened = []
 
 fb_page_id = 110733351804468
-fb_access_token = 'EAAScbfqpdnUBAHVoTaibOBBfgsqb21ZAU3m5xrBKsg3lcOyu8RT9eTQytNN47UEXYgEYLiOOZAhOKcuW2ReK1MFs2gBrXeDzcUfVyH70z3NaFh9ZAqNSU5lwZAby5b0NhpZAEOU3Yt21EBsjLZBvZBBlHpgOJwwdxfeQCDwLNsrZC8KXgaGKh5DZC'
+
+#here goes our fb token. We don't want to others to have access to our fb channel
+fb_access_token = ''
+
 fb_post_url = 'https://graph.facebook.com/{}/feed'.format(fb_page_id)
 
-telegram_token = '5605711834:AAE7CAQ0rJTGOUDV8CGMX58vQBvMni-Gauo'
+telegram_token = 'our-page-telegram-access-code-here'
 bot = telegram.Bot(token=telegram_token)
 
 options = Options()
